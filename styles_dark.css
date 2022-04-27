@@ -7,6 +7,11 @@
 
 /*------------ HEADER BEGINS -----------------*/
 
+.highlighted {
+    font-weight: bold;
+    color:rgb(252, 242, 112);
+}
+
 .nav__container {
     width: 100%;
     height: 3em;
