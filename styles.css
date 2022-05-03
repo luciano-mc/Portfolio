@@ -183,10 +183,8 @@ body {
     color:#0a66c2;
 }
 
-.fas.fa-language {
-    font-size: 25px;
+.language_icon {
     padding: 17px;
-    color:#0a66c2;
 }
 
 .cv__languages {
@@ -283,6 +281,14 @@ body {
     right: 20px;
 }
 
+i[name=arrowleft]:hover {
+    color: #084d91;
+}
+
+i[name=arrowright]:hover {
+    color: #084d91;
+}
+
 .cv__slide {
     opacity: 0;
 }
@@ -336,6 +342,30 @@ body {
     right: 20px;
     color: rgb(100, 175, 100);
 }
+
+/* Knowledge Icons */
+
+#html_icon {
+    color: #f16528;
+}
+
+#css_icon {
+    color: #5285d8;
+}
+
+#js_icon {
+    color: #f2d90d;
+}
+
+#git_icon {
+    color: #e44d31;
+}
+
+#photoshop_icon {
+    color: #00a6e9;
+}
+
+/* Slide3 */
 
 .cv__projects__title {
     margin-bottom: 10px;
