@@ -5,7 +5,7 @@
     font-family: 'ProdigySansRegular', Verdana, Tahoma, sans-serif;
 }
 
-/*------------ HEADER BEGINS -----------------*/
+/*-------------------- Header Begins ---------------------*/
 
 .highlighted {
     font-weight: bold;
@@ -83,13 +83,14 @@
     transition: color 1s;
 }
 
-/*------------ HEADER ENDS -----------------
------------- BODY BEGINS ------------------*/
+/*-------------------- Body Begins ---------------------*/
 
 body {
     height: 100vh;
     background-image: linear-gradient(to top, rgb(27, 54, 71) 0%, rgb(24, 24, 24) 100%);
 }
+
+/*-------------------- Background ---------------------*/
 
 .stars {
     height: inherit;
@@ -156,15 +157,14 @@ body {
     text-align: left;
 }
 
+/*-------------------- Info Icons ---------------------*/
+
 .cv__infocontainer i {
     font-size: 25px;
     margin-left: 20px;
     margin-right: 15px;
     padding: 5px;
 }
-
-
-/* ------------infoIcons----------- */
 
 .fa-solid.fa-globe {
     color: #fff;
@@ -176,8 +176,6 @@ body {
     font-size: 28px;
     transition: color 1s;
 }
-
-/* ------------infoIcons----------- */
 
 .cv__media {
     height: auto;
@@ -195,12 +193,24 @@ body {
 
 .fa-brands.fa-linkedin {
     color: #fff;
-    transition: color 1s;
+    transition: color .2s;
+}
+
+.fa-brands.fa-linkedin:hover {
+    color: rgb(252, 242, 112);
+}
+
+.fa-brands.fa-github {
+    color: #fff;
+    transition: color .2s;
+}
+
+.fa-brands.fa-github:hover {
+    color: rgb(252, 242, 112);
 }
 
 .language_icon {
     padding: 17px;
-    transition: 1s all;
 }
 
 .cv__languages {
@@ -213,9 +223,9 @@ body {
     padding: 10px 10px 10px 0px;
 }
 
-/*-------------------- CV page 2 ---------------------*/
-/*-------------------- CV page 2 ---------------------*/
-/*-------------------- CV page 2 ---------------------*/
+/*-------------------- CV Slider 1 ---------------------*/
+/*-------------------- CV Slider 1 ---------------------*/
+/*-------------------- CV Slider 1 ---------------------*/
 
 .cv__references {
     width: 600px;
@@ -293,7 +303,6 @@ body {
     position: absolute;
     bottom: 15px;
     z-index: 9999;
-    color: #fff;
     transition: color 1s;
 }
 
@@ -305,12 +314,22 @@ body {
     right: 20px;
 }
 
+i[name=arrowleft] {
+    color: #fff;
+    transition: color .2s;
+}
+
+i[name=arrowright] {
+    color: #fff;
+    transition: color .2s;
+}
+
 i[name=arrowleft]:hover {
-    color: #084d91;
+    color: rgb(252, 242, 112);
 }
 
 i[name=arrowright]:hover {
-    color: #084d91;
+    color: rgb(252, 242, 112);
 }
 
 .cv__slide {
@@ -324,6 +343,10 @@ i[name=arrowright]:hover {
     opacity: 1;
     transition: 1s;
 }
+
+/*-------------------- CV Slider 2 ---------------------*/
+/*-------------------- CV Slider 2 ---------------------*/
+/*-------------------- CV Slider 2 ---------------------*/
 
 #slide2 , #slide3 {
     position: absolute;
@@ -367,7 +390,7 @@ i[name=arrowright]:hover {
     color: rgb(252, 242, 112);
 }
 
-/* Knowledge Icons */
+/*-------------------- Knowledge Icons ---------------------*/
 
 #html_icon {
     color: #f16528;
@@ -385,11 +408,13 @@ i[name=arrowright]:hover {
     color: #e44d31;
 }
 
-#photoshop_icon {
-    color: #00a6e9;
+.devicon-photoshop-plain {
+    color: #0a66c2;
 }
 
-/* Slide3 */
+/*-------------------- CV Slider 3 ---------------------*/
+/*-------------------- CV Slider 3 ---------------------*/
+/*-------------------- CV Slider 3 ---------------------*/
 
 .cv__projects__title {
     margin-bottom: 10px;
@@ -405,10 +430,7 @@ i[name=arrowright]:hover {
     margin: 0 auto;
 }
 
-/* ------------ANIMATIONS----------- */
-/* ------------ANIMATIONS----------- */
-
-
+/*-------------------- Animations ---------------------*/
 
 @keyframes blink {
     
@@ -527,5 +549,4 @@ i[name=arrowright]:hover {
     #slide3 {
         text-align: center;
     }
-
 }

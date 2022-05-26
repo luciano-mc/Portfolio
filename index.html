@@ -10,26 +10,30 @@
     <link rel="stylesheet" href="styles.css" id="stylesheet">
     <link rel="stylesheet" href="fontawesome/css/all.css">
     <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/prodigy-sans" type="text/css"/>  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"> 
     <title>Luciano Martin</title>
 </head>
 <body>
-  <div class="stars"></div>   
+    <!-- Background -->
+  <div class="stars"></div>
+    <!-- Nav begins -->
      <header class="header">
-            <nav class="nav__container">
-                <div class="nav__lang">
-                    <a href="#" class="set__en" id="btn_en">EN</a>
-                    <a href="#" class="set__es" id="btn_es">ES</a>
-                </div>
-                <div class="nav__mode">
-                    <i class="fas fa-sun"></i>
-                    <input type="checkbox" id="checkbox">
-                    <label for="checkbox" class="lbl_check"></label>
-                    <i class="fas fa-moon"></i>
-                </div>
-            </nav>
+        <nav class="nav__container">
+            <div class="nav__lang">
+                <a href="#" class="set__en" id="btn_en">EN</a>
+                <a href="#" class="set__es" id="btn_es">ES</a>
+            </div>
+            <div class="nav__mode">
+                <i class="fas fa-sun"></i>
+                <input type="checkbox" id="checkbox">
+                <label for="checkbox" class="lbl_check"></label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </nav>
     </header>
-
+    <!-- Section begins -->
     <section class="main__background">
+        <!-- Card Contact info -->
         <div class="cv__card">
             <picture class="cv__logo">
                 <img src="img/foto cv.png" alt="cvpicture" class="cv__img" id="cv__img">
@@ -51,57 +55,56 @@
                 <i class="language_icon"><img src="img/icon_bra.png" alt="Brasil Icon"></i><p><span class="highlighted">Portuguese</span class="highlighted"> <br> Intermediate</p>
             </div>
         </div>
-
+        <!-- Slider container -->
         <div class="cv__references">
-
-                <div class="cv__slide cv__slide--show" id="slide1" data-id="1">
-                    <div class="cv__about">
-                        <h2 class="cv__about__title">Profile</h2>
-                        <p class="cv__about__description">Responsible, self taught, passionate with a great learning ability and fluent <span class="highlighted">english</span class="highlighted">. At this moment, I'm currently on a Full Stack developer Bootcamp.</p>
+            <!-- Slider 1: Services -->
+            <div class="cv__slide cv__slide--show" id="slide1" data-id="1">
+                <div class="cv__about">
+                    <h2 class="cv__about__title">Profile</h2>
+                    <p class="cv__about__description">Responsible, self taught, passionate with a great learning ability and fluent <span class="highlighted">english</span class="highlighted">. At this moment, I'm currently on a Full Stack developer Bootcamp.</p>
+                </div>
+                <h3 class="cv__services__title">What I do</h3>
+                <div class="cv__services">
+                    <div class="cv__services__box">
+                        <img src="img/static.svg" alt="Website">
+                        <div class="cv__services__description" id="service1"><p>I do your website with <span class="highlighted">HTML</span class="highlighted">, <span class="highlighted">CSS</span class="highlighted"> y <span class="highlighted">Javascript</span class="highlighted"></p></div>
                     </div>
-                    <h3 class="cv__services__title">What I do</h3>
-                    <div class="cv__services">
-                        <div class="cv__services__box">
-                            <img src="img/static.svg">
-                            <div class="cv__services__description" id="service1"><p>I do your website with <span class="highlighted">HTML</span class="highlighted">, <span class="highlighted">CSS</span class="highlighted"> y <span class="highlighted">Javascript</span class="highlighted"></p></div>
-                        </div>
-                        <div class="cv__services__box">
-                            <img src="img/responsive.svg" alt="">
-                            <div class="cv__services__description" id="service2"><p>Your own responsive web site, adaptable or mobile first</p></div>
-                        </div>
-                        <div class="cv__services__box last">
-                            <img src="img/wordpress.svg" class="cv__services" alt="">
-                            <div class="cv__services__description" id="service3"><p>I can also work with other tools like Wordpress</p></div>
-                        </div>
+                    <div class="cv__services__box">
+                        <img src="img/responsive.svg" alt="Responsive">
+                        <div class="cv__services__description" id="service2"><p>Your own responsive web site, adaptable or mobile first</p></div>
+                    </div>
+                    <div class="cv__services__box last">
+                        <img src="img/wordpress.svg" class="cv__services" alt="Wordpress">
+                        <div class="cv__services__description" id="service3"><p>I can also work with other tools like Wordpress</p></div>
                     </div>
                 </div>
-
-                <div class="cv__slide" id="slide2" data-id="2">
-                    <div class="cv__more">
-                        <h2>About me</h2><br>
-                        <p>I'm a person who is always learning something new. I've started studying on my own and at the moment I'm working on my first projects. Also, I count with a life coach certification and fluent english.</p>
-                    </div>
-                    <div class="cv__knowledge">
-                        <h3 class="cv__knowledge__title">Knowledge</h3>
-                        <div class="cv__knowledge__box"><i class="fa-brands fa-html5" id="html_icon"></i>HTML<span>Good</span></div>
-                        <div class="cv__knowledge__box"><i class="fa-brands fa-css3-alt" id="css_icon"></i>CSS<span>Good</span></div>
-                        <div class="cv__knowledge__box"><i class="fa-brands fa-js" id="js_icon"></i>Javascript<span>Basic</span></div>
-                        <div class="cv__knowledge__box"><i class="fa-brands fa-git-alt" id="git_icon"></i>Git <span>Intermediate</span></div>
-                        <div class="cv__knowledge__box"><i class="fa-solid fa-camera" id="photoshop_icon"></i>Photoshop <span>Good</span></div>
-                    </div>
+            </div>
+            <!-- Slider 2: Skills -->
+            <div class="cv__slide" id="slide2" data-id="2">
+                <div class="cv__more">
+                    <h2>About me</h2><br>
+                    <p>I'm a person who is always learning something new. I've started studying on my own and at the moment I'm working on my first projects. Also, I count with a life coach certification and fluent english.</p>
                 </div>
-
-                <div class="cv__slide" id="slide3" data-id="3">
-                    <h2 class="cv__projects__title">Projects</h2>
-                    <p class="cv__projects__description">At this time, my work is focused on the full stack bootcamp and a landing page for a hostel. The portfolio you are watching now was built with pure <span class="highlighted">HTML</span>, <span class="highlighted">CSS</span> and <span class="highlighted">Javascript</span>. No shortcuts or libraries =). I'll be updating this section very soon, ¡stay tuned!</p>
-                    <img src="img/onconstruction.svg" alt="on construction" class="cv__projects__img">
+                <div class="cv__knowledge">
+                    <h3 class="cv__knowledge__title">Knowledge</h3>
+                    <div class="cv__knowledge__box"><i class="fa-brands fa-html5" id="html_icon"></i>HTML<span>Good</span></div>
+                    <div class="cv__knowledge__box"><i class="fa-brands fa-css3-alt" id="css_icon"></i>CSS<span>Good</span></div>
+                    <div class="cv__knowledge__box"><i class="fa-brands fa-js" id="js_icon"></i>Javascript<span>Intermediate</span></div>
+                    <div class="cv__knowledge__box"><i class="fa-brands fa-git-alt" id="git_icon"></i></i>Git <span>Intermediate</span></div>
+                    <div class="cv__knowledge__box"><i class="devicon-photoshop-plain"></i>Photoshop <span>Good</span></div>
                 </div>
-
-                <a href="#arrowleft" id="btn_prev"><i class="fa-solid fa-circle-arrow-left" name="arrowleft"></i></a>
-                <a href="#arrowright" id="btn_next"><i class="fa-solid fa-circle-arrow-right" name="arrowright"></i></a>
-
+            </div>
+            <!-- Slider 3: Proyects -->
+            <div class="cv__slide" id="slide3" data-id="3">
+                <h2 class="cv__projects__title">Projects</h2>
+                <p class="cv__projects__description">At this time, my work is focused on the full stack bootcamp and a landing page for a hostel. The portfolio you are watching now was built with pure <span class="highlighted">HTML</span>, <span class="highlighted">CSS</span> and <span class="highlighted">Javascript</span>. No shortcuts or libraries =). I'll be updating this section very soon, ¡stay tuned!</p>
+                <img src="img/onconstruction.svg" alt="on construction" class="cv__projects__img">
+            </div>
+            <!-- Slider Arrows -->
+            <a href="#arrowleft" id="btn_prev"><i class="fa-solid fa-circle-arrow-left" name="arrowleft"></i></a>
+            <a href="#arrowright" id="btn_next"><i class="fa-solid fa-circle-arrow-right" name="arrowright"></i></a>
         </div>
-        <script src="js/main.js"></script>
     </section>
+    <script src="js/main.js"></script>
 </body>
 </html>

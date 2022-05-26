@@ -5,7 +5,7 @@
     font-family: 'ProdigySansRegular', Verdana, Tahoma, sans-serif;
 }
 
-/*------------ HEADER BEGINS -----------------*/
+/*-------------------- Header Begins ---------------------*/
 
 .highlighted {
     font-weight: bold;
@@ -80,13 +80,14 @@
     font-size: 28px;
 }
 
-/*------------ HEADER ENDS -----------------
------------- BODY BEGINS ------------------*/
+/*-------------------- Body Begins ---------------------*/
 
 body {
     height: 100vh;
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
+
+/*-------------------- Background ---------------------*/
 
 .stars {
     height: inherit;
@@ -145,15 +146,14 @@ body {
     text-align: left;
 }
 
+/*-------------------- Info Icons ---------------------*/
+
 .cv__infocontainer i {
     font-size: 25px;
     margin-left: 20px;
     margin-right: 15px;
     padding: 5px;
 }
-
-
-/* ------------infoIcons----------- */
 
 .fa-solid.fa-globe {
     color: #0a66c2;
@@ -163,8 +163,6 @@ body {
     color: rgb(224, 55, 55);
     font-size: 28px;
 }
-
-/* ------------infoIcons----------- */
 
 .cv__media {
     height: auto;
@@ -197,9 +195,9 @@ body {
     padding: 10px 10px 10px 0px;
 }
 
-/*-------------------- CV page 2 ---------------------*/
-/*-------------------- CV page 2 ---------------------*/
-/*-------------------- CV page 2 ---------------------*/
+/*-------------------- CV Slider 1 ---------------------*/
+/*-------------------- CV Slider 1 ---------------------*/
+/*-------------------- CV Slider 1 ---------------------*/
 
 .cv__references {
     width: 600px;
@@ -301,6 +299,10 @@ i[name=arrowright]:hover {
     transition: 1s;
 }
 
+/*-------------------- CV Slider 2 ---------------------*/
+/*-------------------- CV Slider 2 ---------------------*/
+/*-------------------- CV Slider 2 ---------------------*/
+
 #slide2 , #slide3 {
     position: absolute;
     z-index: 100;
@@ -361,11 +363,9 @@ i[name=arrowright]:hover {
     color: #e44d31;
 }
 
-#photoshop_icon {
-    color: #00a6e9;
-}
-
-/* Slide3 */
+/*-------------------- CV Slider 3 ---------------------*/
+/*-------------------- CV Slider 3 ---------------------*/
+/*-------------------- CV Slider 3 ---------------------*/
 
 .cv__projects__title {
     margin-bottom: 10px;
@@ -380,6 +380,8 @@ i[name=arrowright]:hover {
     height: 200px;
     margin: 0 auto;
 }
+
+/* Min-Max resolutions */
 
 @media screen and (max-width: 930px) {
 
