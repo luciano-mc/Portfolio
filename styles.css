@@ -363,6 +363,10 @@ i[name=arrowright]:hover {
     color: #e44d31;
 }
 
+#sass-icon {
+    color: #c45f92;
+}
+
 /*-------------------- CV Slider 3 ---------------------*/
 /*-------------------- CV Slider 3 ---------------------*/
 /*-------------------- CV Slider 3 ---------------------*/
@@ -381,7 +385,34 @@ i[name=arrowright]:hover {
     margin: 0 auto;
 }
 
+/* Explainer */
+
+.explainer__btn {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    box-shadow: 1px 1px 3px black;
+}
+
+.explainer__btn:active {
+    box-shadow: -1px -1px 3px black;
+}
+
+.explainer__description {
+    background-color: #fff;
+    position: absolute;
+    top: 40%;
+    right: 20px;
+}
+
 /* Min-Max resolutions */
+/* Min-Max resolutions */
+/* Min-Max resolutions */
+
 
 @media screen and (max-width: 930px) {
 
