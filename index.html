@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/darkStyle.css" id="theme">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="icon" type="image/x-icon" href="images/portfolio-icon.png">
+    <title>Luciano Martin</title>
+</head>
+<body>
+
+    <main class="main">
+        <!-- Hero -->
+        <section class="hero" id="hero">
+            <header class="hero__header">
+                <div class="logo-container"><img src="images/logo.svg" alt="Luciano" class="logo"></div>
+                <input type="checkbox" id="check">
+                <nav class="hero__nav">
+                    <a href="#hero" class="hero__nav-link">Home</a>
+                    <a href="#tech" class="hero__nav-link">Skills</a>
+                    <a href="#projects" class="hero__nav-link">Projects</a>
+                    <a href="#contact" class="hero__nav-link">Contact</a>
+                </nav>
+                <div class="button-container">
+                    <label for="check" class="menu-icon">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                    </label>
+                </div>
+            </header>
+            <div class="hero__texts">
+                <p class="hero__description"><span class="typing">Hi! 👋🏻 My name is Luciano, and I am a</span></p>
+                <h1 class="hero__title">FULL <br><span class="D">D</span><span class="E">E</span><span class="V">V</span></h1>
+            </div>
+            <div class="arrow-container bounce-top">
+                <a class="arrow__button" href="#tech"><span><img class="arrow" src="images/arrow.png" alt="arrow"></span></a>
+            </div>
+        </section>
+    </main>
+    
+    <div class="options">
+        <i class="color__mode" data-color="dark-mode">💡</i>
+        <a href="./index-sp.html"><img class="options__language-icon" src="images/sp-icon.png" alt="spanish"></a>
+    </div>
+
+    <!-- Section 1 -->
+    <section class="section__tech" id="tech">
+        <h2 class="tech__title" data-animated="glowing">Skills</h2>
+        <div class="tech__gallery" data-animated="fade">
+            <div class="tech__container html">
+                <picture class="tech__img-container">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" />
+                </picture>
+                <h3>HTML</h3>
+            </div>
+            <div class="tech__container css">
+                <picture class="tech__img-container">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"/>            
+                </picture>
+                <h3>CSS</h3>
+            </div>
+            <div class="tech__container js">
+                <picture class="tech__img-container">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />            
+                </picture>
+                <h3>Javascript</h3>
+            </div>
+            <div class="tech__container react">
+                <picture class="tech__img-container">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                </picture>
+                <h3>React</h3>
+            </div>
+            <div class="tech__container git">
+                <picture class="tech__img-container">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
+                </picture>
+                <h3>GIT</h3>
+            </div>
+            <div class="tech__container sass">
+                <picture class="tech__img-container">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" />
+                </picture>
+                <h3>SASS</h3>
+            </div>
+            <div class="tech__container node">
+                <picture class="tech__img-container">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                </picture>
+                <h3>Node</h3>
+            </div>
+            <div class="tech__container mongo">
+                <picture class="tech__img-container">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg" />
+                </picture>
+                <h3>MongoDB</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="section__projects" id="projects">
+        <h2 class="projects__title" data-animated="glowing">Projects</h2>
+        <p class="projects__description" data-animated="fade-in-left">At this time, I'm focused on React projects. The portfolio you are watching now was built with pure HTML, CSS and Javascript. I'll be updating this section constantly, ¡stay tuned!</p>
+        <div class="projects__gallery">
+            
+            <div class="projects__card">
+                <picture class="card__img-container">
+                    <a href="https://id2ec.com.ar/" target="_blank">
+                        <img src="images/capba.png" alt="capba-landing" class="card__img card__img--centered" title="CAPBA">                        
+                    </a>
+                </picture>
+                <div class="card__texts">
+                    <h3 class="card__texts__title">Capba</h3>
+                    <p class="card__texts__description">A landing page created for Colleague of Architects from Buenos Aires. The website is done with HTML, CSS, and JS.</p>
+                </div>
+                <div class="card__techs">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Javascript" title="Javascript" />            
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" title="CSS" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" title="HTML" />
+                </div>
+            </div>
+            
+            <div class="projects__card">
+                <picture class="card__img-container">
+                    <a href="https://weather-react-app.glitch.me/" target="_blank">
+                        <img src="images/ecommerce.png" alt="ecommerce-app" class="card__img" title="Ecommerce">                        
+                    </a>
+                </picture>
+                <div class="card__texts">
+                    <h3 class="card__texts__title">Juguetería Cósmica</h3>
+                    <p class="card__texts__description">A demo for a ecommerce for my Bootcamp. Developed with JS and Node, uses MongoDB Atlas and styled in SASS.</p>
+                </div>
+                <div class="card__techs">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="Sass" title="Sass" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="Javascript" title="Javascript" />            
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="NodeJS" title="NodeJS" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg" alt="MongoDB" title="MongoDB" />
+                </div>
+            </div>
+
+            <div class="projects__card">
+                <picture class="card__img-container">
+                    <a href="https://weather-react-app.glitch.me/" target="_blank">
+                        <img src="images/game-app.png" alt="game-app" class="card__img" title="Game App">                        
+                    </a>
+                </picture>
+                <div class="card__texts">
+                    <h3 class="card__texts__title">Game App</h3>
+                    <p class="card__texts__description">A react game app consuming API that shows the ammount of reviews on Steam for the game you are looking for.</p>
+                </div>
+                <div class="card__techs">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" title="CSS" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" title="HTML" />
+                </div>
+            </div>
+
+            <div class="projects__card">
+                <picture class="card__img-container">
+                    <a href="https://weather-react-app.glitch.me/" target="_blank">
+                        <img src="images/app.png" alt="weather-app" class="card__img" title="Weather App">                        
+                    </a>
+                </picture>
+                <div class="card__texts">
+                    <h3 class="card__texts__title">Weather App</h3>
+                    <p class="card__texts__description">A react weather app consuming WeatherApi</p>
+                </div>
+                <div class="card__techs">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" title="React" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" title="CSS" />
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" title="HTML" />
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+    <!-- Section 3 -->
+    <section class="section__about" id="contact">
+        <h2 class="about__title" data-animated="glowing">About me</h2>
+        <p class="about__description" data-animated="fade-in-right">Passionate about programming and videogames. Selftaught, analytical thinker and fast learner. I'm always learning something new. My goal is to be an excellent full stack developer. </p>
+        <div class="about__contact">
+            <h3 class="turned-on">Get in touch</h3>
+            <p>You can contact me here:</p>
+            <p>Email: <span><b>luciano.martiin@gmail.com</b></span></p>
+            <h4>or here:</h4>
+            <div class="about__contact-socials">
+                <a href="https://www.linkedin.com/in/luciano-carrivale/" title="LinkedIn">
+                    <svg viewBox="0 0 128 128">
+                        <path fill="#0076b2" d="M116 3H12a8.91 8.91 0 00-9 8.8v104.42a8.91 8.91 0 009 8.78h104a8.93 8.93 0 009-8.81V11.77A8.93 8.93 0 00116 3z"></path><path fill="#fff" d="M21.06 48.73h18.11V107H21.06zm9.06-29a10.5 10.5 0 11-10.5 10.49 10.5 10.5 0 0110.5-10.49M50.53 48.73h17.36v8h.24c2.42-4.58 8.32-9.41 17.13-9.41C103.6 47.28 107 59.35 107 75v32H88.89V78.65c0-6.75-.12-15.44-9.41-15.44s-10.87 7.36-10.87 15V107H50.53z"></path>
+                    </svg> 
+                </a>
+                <a href="https://github.com/luciano-mc" title="Github">
+                    <svg viewBox="0 0 128 128">
+                        <g fill="var(--third-color)" ><path fill-rule="evenodd" clip-rule="evenodd" d="M64 5.103c-33.347 0-60.388 27.035-60.388 60.388 0 26.682 17.303 49.317 41.297 57.303 3.017.56 4.125-1.31 4.125-2.905 0-1.44-.056-6.197-.082-11.243-16.8 3.653-20.345-7.125-20.345-7.125-2.747-6.98-6.705-8.836-6.705-8.836-5.48-3.748.413-3.67.413-3.67 6.063.425 9.257 6.223 9.257 6.223 5.386 9.23 14.127 6.562 17.573 5.02.542-3.903 2.107-6.568 3.834-8.076-13.413-1.525-27.514-6.704-27.514-29.843 0-6.593 2.36-11.98 6.223-16.21-.628-1.52-2.695-7.662.584-15.98 0 0 5.07-1.623 16.61 6.19C53.7 35 58.867 34.327 64 34.304c5.13.023 10.3.694 15.127 2.033 11.526-7.813 16.59-6.19 16.59-6.19 3.287 8.317 1.22 14.46.593 15.98 3.872 4.23 6.215 9.617 6.215 16.21 0 23.194-14.127 28.3-27.574 29.796 2.167 1.874 4.097 5.55 4.097 11.183 0 8.08-.07 14.583-.07 16.572 0 1.607 1.088 3.49 4.148 2.897 23.98-7.994 41.263-30.622 41.263-57.294C124.388 32.14 97.35 5.104 64 5.104z"></path><path d="M26.484 91.806c-.133.3-.605.39-1.035.185-.44-.196-.685-.605-.543-.906.13-.31.603-.395 1.04-.188.44.197.69.61.537.91zm2.446 2.729c-.287.267-.85.143-1.232-.28-.396-.42-.47-.983-.177-1.254.298-.266.844-.14 1.24.28.394.426.472.984.17 1.255zM31.312 98.012c-.37.258-.976.017-1.35-.52-.37-.538-.37-1.183.01-1.44.373-.258.97-.025 1.35.507.368.545.368 1.19-.01 1.452zm3.261 3.361c-.33.365-1.036.267-1.552-.23-.527-.487-.674-1.18-.343-1.544.336-.366 1.045-.264 1.564.23.527.486.686 1.18.333 1.543zm4.5 1.951c-.147.473-.825.688-1.51.486-.683-.207-1.13-.76-.99-1.238.14-.477.823-.7 1.512-.485.683.206 1.13.756.988 1.237zm4.943.361c.017.498-.563.91-1.28.92-.723.017-1.308-.387-1.315-.877 0-.503.568-.91 1.29-.924.717-.013 1.306.387 1.306.88zm4.598-.782c.086.485-.413.984-1.126 1.117-.7.13-1.35-.172-1.44-.653-.086-.498.422-.997 1.122-1.126.714-.123 1.354.17 1.444.663zm0 0"></path></g>
+                    </svg> 
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+       <div class="author">
+            <p>2023 &#169 <a class="author__link" href="https://github.com/luciano-mc">Luciano Martin</a></p>
+       </div> 
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>

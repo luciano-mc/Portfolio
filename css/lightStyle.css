@@ -1,0 +1,11 @@
+:root {
+    --main-color: #dd00ff;
+    --secondary-color: #ffffff;
+    --third-color: #000000;
+    --fourth-color: #b5d43b;
+    --main-off: #850099;
+    --character-D: #0092cc;
+    --character-E: #4e00cc;
+    --character-V: #7000cc;
+    --logo-filter: invert(15%) sepia(415%) saturate(5090%) hue-rotate(287deg) brightness(107%) contrast(121%);
+}   
