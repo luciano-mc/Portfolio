@@ -459,6 +459,7 @@ main {
     align-items: center;
     margin: 20px 0;
     height: 130px;
+    gap: 15px;
 }
 
 .tech__img-container {

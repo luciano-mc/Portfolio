@@ -329,8 +329,8 @@ h2::after {
 
 .typing {
     display: block;
-    width: 29ch;
-    animation: typing 2s steps(29), blink .5s step-end infinite alternate;
+    width: 31ch;
+    animation: typing 2s steps(31), blink .5s step-end infinite alternate;
     white-space: nowrap;
     overflow: hidden;
     border-right: 2px solid;
