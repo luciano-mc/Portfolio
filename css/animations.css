@@ -19,7 +19,7 @@
     100% {
         color: var(--main-color);
         filter:drop-shadow(0px 0px 8px var(--main-color)) 
-               drop-shadow(0px 0px 25px var(--main-color));
+               drop-shadow(0px 0px 30px var(--main-color));
     }
 }
 
