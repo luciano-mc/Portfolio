@@ -1,6 +1,14 @@
+/* Animations */
+@import url('animations.css');
+
 /* Font: Montserrat Alternates */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100&display=swap');
-@import url('animations.css');
+
+/* Font: Fira Code*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+/* Font: Inter */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Raleway:wght@300;400;700;800&display=swap');
 
 :root {
     scroll-behavior: smooth;
@@ -15,7 +23,7 @@
 body {
     background-color: var(--secondary-color);
     color: var(--third-color);
-    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
 }
 
@@ -479,8 +487,6 @@ main {
 
 /* Sections 2: Projects */
 .section__projects {
-    align-items: center;
-    text-align: center;
     gap: 30px;
     padding: 40px 0 10px 0;
 }
@@ -549,7 +555,7 @@ main {
 }
 
 .card__img-container img:hover {
-    transform: scale(1.03);
+    transform: scale(1.1);
 }
 
 .card__img--centered {
@@ -683,7 +689,7 @@ main {
 /* Tablet resolution */
 @media screen and (min-width: 600px) {
     
-    section {
+    body {
         padding: 0 60px;
     }
 
@@ -736,6 +742,10 @@ main {
 /* Desktop resolution */
 @media screen and (min-width: 1024px) {
 
+    body {
+        padding: 0 200px;
+    }
+
     .hero__description {
         margin-left: 25%;
     }
@@ -766,6 +776,12 @@ main {
         justify-content: center;
         align-items: flex-start;
         gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .projects__card {
+        flex-basis: 200px;
+        flex-grow: 1;
     }
 
     .about__contact {
