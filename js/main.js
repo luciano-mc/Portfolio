@@ -1,6 +1,6 @@
 // Watch for the scroll to set CSS classes
 const animatedElements = document.querySelectorAll('[data-animated]')
-let height = window.innerHeight/1.5;
+let height = window.innerHeight/1.4;
 
 window.addEventListener('scroll', () => {
     animatedElements.forEach(element => {
